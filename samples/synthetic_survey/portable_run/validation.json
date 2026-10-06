@@ -1,0 +1,95 @@
+{
+  "mode": "portable analytic fixture; NOT PyQGIS",
+  "verified": true,
+  "qgis_runtime_executed": false,
+  "summary": {
+    "transect_id": "SYN01",
+    "planned_length_m": 300,
+    "recorded_length_m": 306.8261303850715,
+    "observation_count": 61,
+    "observed_deviation": {
+      "count": 61,
+      "missing_count": 0,
+      "invalid_count": 0,
+      "mean": 2.8467213114754126,
+      "median": 0.7500000000000148,
+      "rmse": 4.830389625529826,
+      "maximum": 13.999999999999947,
+      "p95": 12.000000000000016
+    },
+    "within_percent": [
+      68.85245901639344,
+      80.32786885245902,
+      91.80327868852459
+    ],
+    "reported_gnss": {
+      "count": 61,
+      "missing_count": 0,
+      "invalid_count": 0,
+      "mean": 2.6229508196721314,
+      "median": 2.0,
+      "rmse": 3.3778448847710236,
+      "maximum": 12.0,
+      "p95": 8.0
+    },
+    "coverage": {
+      "supported_length_m": 269.9999999999999,
+      "supported_percent": 89.99999999999996,
+      "eligible_group_count": 1,
+      "excluded_group_count": 0,
+      "accepted_pair_count": 54,
+      "rejected_pair_count": 6
+    },
+    "options": {
+      "thresholds_m": [
+        3.0,
+        5.0,
+        10.0
+      ],
+      "coverage_max_station_gap_m": 25.0,
+      "coverage_max_time_gap_s": 60.0
+    }
+  },
+  "events": {
+    "events": [
+      {
+        "event_id": "SYN01_E001",
+        "transect_id": "SYN01",
+        "group": "survey",
+        "source_ids": [
+          "row_33",
+          "row_34",
+          "row_35",
+          "row_36",
+          "row_37",
+          "row_38",
+          "row_39",
+          "row_40",
+          "row_41",
+          "row_42",
+          "row_43",
+          "row_44"
+        ],
+        "start_distance_along_m": 154.99999999999997,
+        "end_distance_along_m": 210.0,
+        "event_length_m": 55.00000000000003,
+        "start_time": "2026-01-01T12:02:35Z",
+        "end_time": "2026-01-01T12:03:30Z",
+        "duration_s": 55.0,
+        "mean_deviation_m": 9.833333333333325,
+        "maximum_deviation_m": 13.999999999999947,
+        "mean_gnss_accuracy_raw": 5.166666666666667,
+        "gnss_valid_count": 12,
+        "observation_count": 12
+      }
+    ],
+    "eligible_groups": [
+      "survey"
+    ],
+    "excluded_groups": [],
+    "rejected_run_count": 0,
+    "temporal_gap_count": 0,
+    "spatial_gap_count": 0
+  },
+  "plugin_version": "0.1.9"
+}

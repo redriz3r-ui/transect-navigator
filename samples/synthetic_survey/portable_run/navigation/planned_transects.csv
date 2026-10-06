@@ -1,0 +1,2 @@
+Transect_ID,CRS,WKT,Start_Longitude,Start_Latitude,End_Longitude,End_Latitude
+SYN01,EPSG:4326,"LINESTRING (0 0, 0.0026949458523585642 0)",0.0,0.0,0.002694945852358564,0.0

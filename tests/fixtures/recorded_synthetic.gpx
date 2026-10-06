@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:test="urn:transect-navigator:synthetic" version="1.1" creator="Transect Navigator synthetic ingestion fixture">
+  <trk><name>Synthetic — not a device export</name>
+    <trkseg>
+      <trkpt lat="45.0" lon="-120.0"><ele>12.50</ele><time>2026-01-01T00:00:02Z</time><fix>3d</fix><sat>11</sat><hdop>0.8</hdop><pdop>1.2</pdop><extensions><test:horizontalAccuracy units="m">4.5</test:horizontalAccuracy></extensions></trkpt>
+      <trkpt lat="45.0" lon="-120.0002"><time>2026-01-01T00:00:00Z</time></trkpt>
+      <trkpt lat="45.0" lon="-120.0001"><time>2026-01-01T00:00:01Z</time></trkpt>
+    </trkseg>
+    <trkseg><trkpt lat="45.001" lon="-120.0"/></trkseg>
+    <trkseg/>
+  </trk>
+</gpx>

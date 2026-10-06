@@ -1,0 +1,14 @@
+[general]
+name=Transect Navigator
+qgisMinimumVersion=3.44
+qgisMaximumVersion=4.99
+version=0.1.13-rc1
+description=Prepare navigation, analyze GPS observations, visualize deviation and export analysis packages
+about=Release candidate for navigation preparation and recorded-GPS QA/QC. Preserves raw observations separately from derived deviation, statistics, coverage and events. Synthetic workflow validated with QGIS 4.2.3 on macOS; other versions, platforms and field datasets remain unvalidated. Thresholds are user-configurable, not compliance standards. No real-time field navigation.
+author=Transect Navigator contributors
+email=
+repository=
+experimental=True
+changelog=0.1.13-rc1: Release-candidate documentation and packaging of the QGIS-validated 0.1.12 workflow; no analysis behavior changes.
+category=Vector
+hasProcessingProvider=False

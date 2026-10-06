@@ -1,0 +1,1347 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "Observation_ID": "OBS001",
+        "Timestamp": "2026-01-01T12:00:00+00:00",
+        "Longitude": "0.000000000000000000",
+        "Latitude": "0.000000000000000000",
+        "Horizontal_Accuracy_m": "2",
+        "HDOP": "0.8",
+        "PDOP": "1.2",
+        "Satellites": "12",
+        "Fix_Type": "3d",
+        "Elevation_m": "25.0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Observation_ID": "OBS002",
+        "Timestamp": "2026-01-01T12:00:05+00:00",
+        "Longitude": "0.000044915764205976",
+        "Latitude": "0.000002260923692626",
+        "Horizontal_Accuracy_m": "2",
+        "HDOP": "0.8",
+        "PDOP": "1.2",
+        "Satellites": "12",
+        "Fix_Type": "3d",
+        "Elevation_m": "25.0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.4915764205976e-05,
+          2.260923692626e-06
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Observation_ID": "OBS003",
+        "Timestamp": "2026-01-01T12:00:10+00:00",
+        "Longitude": "0.000089831528411952",
+        "Latitude": "-0.000002260923692626",
+        "Horizontal_Accuracy_m": "2",
+        "HDOP": "0.8",
+        "PDOP": "1.2",
+        "Satellites": "12",
+        "Fix_Type": "3d",
+        "Elevation_m": "25.0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.9831528411952e-05,
+          -2.260923692626e-06
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Observation_ID": "OBS004",
+        "Timestamp": "2026-01-01T12:00:15+00:00",
+        "Longitude": "0.000134747292617928",
+        "Latitude": "0.000004521847385252",
+        "Horizontal_Accuracy_m": "2",
+        "HDOP": "0.8",
+        "PDOP": "1.2",
+        "Satellites": "12",
+        "Fix_Type": "3d",
+        "Elevation_m": "25.0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.000134747292617928,
+          4.521847385252e-06
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Observation_ID": "OBS005",
+        "Timestamp": "2026-01-01T12:00:20+00:00",
+        "Longitude": "0.000179663056823904",
+        "Latitude": "-0.000004521847385252",
+        "Horizontal_Accuracy_m": "2",
+        "HDOP": "0.8",
+        "PDOP": "1.2",
+        "Satellites": "12",
+        "Fix_Type": "3d",
+        "Elevation_m": "25.0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.000179663056823904,
+          -4.521847385252e-06
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Observation_ID": "OBS006",
+        "Timestamp": "2026-01-01T12:00:25+00:00",
+        "Longitude": "0.000224578821029880",
+        "Latitude": "0.000006782771077878",
+        "Horizontal_Accuracy_m": "2",
+        "HDOP": "0.8",
+        "PDOP": "1.2",
+        "Satellites": "12",
+        "Fix_Type": "3d",
+        "Elevation_m": "25.0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.00022457882102988,
+          6.782771077878e-06
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Observation_ID": "OBS007",
+        "Timestamp": "2026-01-01T12:00:30+00:00",
+        "Longitude": "0.000269494585235856",
+        "Latitude": "-0.000006782771077878",
+        "Horizontal_Accuracy_m": "2",
+        "HDOP": "0.8",
+        "PDOP": "1.2",
+        "Satellites": "12",
+        "Fix_Type": "3d",
+        "Elevation_m": "25.0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.000269494585235856,
+          -6.782771077878e-06
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Observation_ID": "OBS008",
+        "Timestamp": "2026-01-01T12:00:35+00:00",
+        "Longitude": "0.000314410349441833",
+        "Latitude": "0.000002260923692626",
+        "Horizontal_Accuracy_m": "2",
+        "HDOP": "0.8",
+        "PDOP": "1.2",
+        "Satellites": "12",
+        "Fix_Type": "3d",
+        "Elevation_m": "25.0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.000314410349441833,
+          2.260923692626e-06
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Observation_ID": "OBS009",
+        "Timestamp": "2026-01-01T12:00:40+00:00",
+        "Longitude": "0.000359326113647809",
+        "Latitude": "-0.000002260923692626",
+        "Horizontal_Accuracy_m": "2",
+        "HDOP": "0.8",
+        "PDOP": "1.2",
+        "Satellites": "12",
+        "Fix_Type": "3d",
+        "Elevation_m": "25.0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.000359326113647809,
+          -2.260923692626e-06
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Observation_ID": "OBS010",
+        "Timestamp": "2026-01-01T12:00:45+00:00",
+        "Longitude": "0.000404241877853785",
+        "Latitude": "0.000004521847385252",
+        "Horizontal_Accuracy_m": "2",
+        "HDOP": "0.8",
+        "PDOP": "1.2",
+        "Satellites": "12",
+        "Fix_Type": "3d",
+        "Elevation_m": "25.0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.000404241877853785,
+          4.521847385252e-06
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Observation_ID": "OBS011",
+        "Timestamp": "2026-01-01T12:00:50+00:00",
+        "Longitude": "0.000449157642059761",
+        "Latitude": "-0.000004521847385252",
+        "Horizontal_Accuracy_m": "2",
+        "HDOP": "0.8",
+        "PDOP": "1.2",
+        "Satellites": "12",
+        "Fix_Type": "3d",
+        "Elevation_m": "25.0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.000449157642059761,
+          -4.521847385252e-06
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Observation_ID": "OBS012",
+        "Timestamp": "2026-01-01T12:00:55+00:00",
+        "Longitude": "0.000494073406265737",
+        "Latitude": "0.000002260923692626",
+        "Horizontal_Accuracy_m": "2",
+        "HDOP": "0.8",
+        "PDOP": "1.2",
+        "Satellites": "12",
+        "Fix_Type": "3d",
+        "Elevation_m": "25.0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.000494073406265737,
+          2.260923692626e-06
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Observation_ID": "OBS013",
+        "Timestamp": "2026-01-01T12:01:00+00:00",
+        "Longitude": "0.000538989170471713",
+        "Latitude": "-0.000002260923692626",
+        "Horizontal_Accuracy_m": "2",
+        "HDOP": "0.8",
+        "PDOP": "1.2",
+        "Satellites": "12",
+        "Fix_Type": "3d",
+        "Elevation_m": "25.0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.000538989170471713,
+          -2.260923692626e-06
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Observation_ID": "OBS014",
+        "Timestamp": "2026-01-01T12:01:05+00:00",
+        "Longitude": "0.000583904934677689",
+        "Latitude": "0.000006782771077878",
+        "Horizontal_Accuracy_m": "2",
+        "HDOP": "0.8",
+        "PDOP": "1.2",
+        "Satellites": "12",
+        "Fix_Type": "3d",
+        "Elevation_m": "25.0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.000583904934677689,
+          6.782771077878e-06
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Observation_ID": "OBS015",
+        "Timestamp": "2026-01-01T12:01:10+00:00",
+        "Longitude": "0.000628820698883665",
+        "Latitude": "-0.000006782771077878",
+        "Horizontal_Accuracy_m": "2",
+        "HDOP": "0.8",
+        "PDOP": "1.2",
+        "Satellites": "12",
+        "Fix_Type": "3d",
+        "Elevation_m": "25.0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.000628820698883665,
+          -6.782771077878e-06
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Observation_ID": "OBS016",
+        "Timestamp": "2026-01-01T12:01:15+00:00",
+        "Longitude": "0.000673736463089641",
+        "Latitude": "0.000002260923692626",
+        "Horizontal_Accuracy_m": "2",
+        "HDOP": "0.8",
+        "PDOP": "1.2",
+        "Satellites": "12",
+        "Fix_Type": "3d",
+        "Elevation_m": "25.0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.000673736463089641,
+          2.260923692626e-06
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Observation_ID": "OBS017",
+        "Timestamp": "2026-01-01T12:01:20+00:00",
+        "Longitude": "0.000718652227295617",
+        "Latitude": "-0.000002260923692626",
+        "Horizontal_Accuracy_m": "2",
+        "HDOP": "0.8",
+        "PDOP": "1.2",
+        "Satellites": "12",
+        "Fix_Type": "3d",
+        "Elevation_m": "25.0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.000718652227295617,
+          -2.260923692626e-06
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Observation_ID": "OBS018",
+        "Timestamp": "2026-01-01T12:01:25+00:00",
+        "Longitude": "0.000763567991501593",
+        "Latitude": "0.000004521847385252",
+        "Horizontal_Accuracy_m": "2",
+        "HDOP": "0.8",
+        "PDOP": "1.2",
+        "Satellites": "12",
+        "Fix_Type": "3d",
+        "Elevation_m": "25.0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.000763567991501593,
+          4.521847385252e-06
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Observation_ID": "OBS019",
+        "Timestamp": "2026-01-01T12:01:30+00:00",
+        "Longitude": "0.000808483755707569",
+        "Latitude": "-0.000004521847385252",
+        "Horizontal_Accuracy_m": "2",
+        "HDOP": "0.8",
+        "PDOP": "1.2",
+        "Satellites": "12",
+        "Fix_Type": "3d",
+        "Elevation_m": "25.0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.000808483755707569,
+          -4.521847385252e-06
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Observation_ID": "OBS020",
+        "Timestamp": "2026-01-01T12:01:35+00:00",
+        "Longitude": "0.000853399519913545",
+        "Latitude": "0.000000000000000000",
+        "Horizontal_Accuracy_m": "2",
+        "HDOP": "0.8",
+        "PDOP": "1.2",
+        "Satellites": "12",
+        "Fix_Type": "3d",
+        "Elevation_m": "25.0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.000853399519913545,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Observation_ID": "OBS021",
+        "Timestamp": "2026-01-01T12:01:40+00:00",
+        "Longitude": "0.000898315284119522",
+        "Latitude": "0.000007234955816403",
+        "Horizontal_Accuracy_m": "2",
+        "HDOP": "0.8",
+        "PDOP": "1.2",
+        "Satellites": "12",
+        "Fix_Type": "3d",
+        "Elevation_m": "25.0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.000898315284119522,
+          7.234955816403e-06
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Observation_ID": "OBS022",
+        "Timestamp": "2026-01-01T12:01:45+00:00",
+        "Longitude": "0.000943231048325498",
+        "Latitude": "0.000010852433724605",
+        "Horizontal_Accuracy_m": "2",
+        "HDOP": "0.8",
+        "PDOP": "1.2",
+        "Satellites": "12",
+        "Fix_Type": "3d",
+        "Elevation_m": "25.0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.000943231048325498,
+          1.0852433724605e-05
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Observation_ID": "OBS023",
+        "Timestamp": "2026-01-01T12:01:50+00:00",
+        "Longitude": "0.000988146812531474",
+        "Latitude": "0.000014469911632806",
+        "Horizontal_Accuracy_m": "2",
+        "HDOP": "0.8",
+        "PDOP": "1.2",
+        "Satellites": "12",
+        "Fix_Type": "3d",
+        "Elevation_m": "25.0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.000988146812531474,
+          1.4469911632806e-05
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Observation_ID": "OBS024",
+        "Timestamp": "2026-01-01T12:01:55+00:00",
+        "Longitude": "0.001033062576737450",
+        "Latitude": "0.000018087389541008",
+        "Horizontal_Accuracy_m": "2",
+        "HDOP": "0.8",
+        "PDOP": "1.2",
+        "Satellites": "12",
+        "Fix_Type": "3d",
+        "Elevation_m": "25.0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.00103306257673745,
+          1.8087389541008e-05
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Observation_ID": "OBS025",
+        "Timestamp": "2026-01-01T12:02:00+00:00",
+        "Longitude": "0.001077978340943426",
+        "Latitude": "0.000021704867449209",
+        "Horizontal_Accuracy_m": "2",
+        "HDOP": "0.8",
+        "PDOP": "1.2",
+        "Satellites": "12",
+        "Fix_Type": "3d",
+        "Elevation_m": "25.0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.001077978340943426,
+          2.1704867449209e-05
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Observation_ID": "OBS026",
+        "Timestamp": "2026-01-01T12:02:05+00:00",
+        "Longitude": "0.001122894105149402",
+        "Latitude": "0.000025322345357411",
+        "Horizontal_Accuracy_m": "2",
+        "HDOP": "0.8",
+        "PDOP": "1.2",
+        "Satellites": "12",
+        "Fix_Type": "3d",
+        "Elevation_m": "25.0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.001122894105149402,
+          2.5322345357411e-05
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Observation_ID": "OBS027",
+        "Timestamp": "2026-01-01T12:02:10+00:00",
+        "Longitude": "0.001167809869355378",
+        "Latitude": "0.000028939823265612",
+        "Horizontal_Accuracy_m": "2",
+        "HDOP": "0.8",
+        "PDOP": "1.2",
+        "Satellites": "12",
+        "Fix_Type": "3d",
+        "Elevation_m": "25.0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.001167809869355378,
+          2.8939823265612e-05
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Observation_ID": "OBS028",
+        "Timestamp": "2026-01-01T12:02:15+00:00",
+        "Longitude": "0.001212725633561354",
+        "Latitude": "0.000032557301173814",
+        "Horizontal_Accuracy_m": "2",
+        "HDOP": "0.8",
+        "PDOP": "1.2",
+        "Satellites": "12",
+        "Fix_Type": "3d",
+        "Elevation_m": "25.0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.001212725633561354,
+          3.2557301173814e-05
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Observation_ID": "OBS029",
+        "Timestamp": "2026-01-01T12:02:20+00:00",
+        "Longitude": "0.001257641397767330",
+        "Latitude": "0.000036174779082015",
+        "Horizontal_Accuracy_m": "2",
+        "HDOP": "0.8",
+        "PDOP": "1.2",
+        "Satellites": "12",
+        "Fix_Type": "3d",
+        "Elevation_m": "25.0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.00125764139776733,
+          3.6174779082015e-05
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Observation_ID": "OBS030",
+        "Timestamp": "2026-01-01T12:02:25+00:00",
+        "Longitude": "0.001302557161973306",
+        "Latitude": "0.000039792256990217",
+        "Horizontal_Accuracy_m": "2",
+        "HDOP": "0.8",
+        "PDOP": "1.2",
+        "Satellites": "12",
+        "Fix_Type": "3d",
+        "Elevation_m": "25.0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.001302557161973306,
+          3.9792256990217e-05
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Observation_ID": "OBS031",
+        "Timestamp": "2026-01-01T12:02:30+00:00",
+        "Longitude": "0.001347472926179282",
+        "Latitude": "0.000043409734898418",
+        "Horizontal_Accuracy_m": "2",
+        "HDOP": "0.8",
+        "PDOP": "1.2",
+        "Satellites": "12",
+        "Fix_Type": "3d",
+        "Elevation_m": "25.0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.001347472926179282,
+          4.3409734898418e-05
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Observation_ID": "OBS032",
+        "Timestamp": "2026-01-01T12:02:35+00:00",
+        "Longitude": "0.001392388690385258",
+        "Latitude": "0.000054262168623023",
+        "Horizontal_Accuracy_m": "2",
+        "HDOP": "0.8",
+        "PDOP": "1.2",
+        "Satellites": "12",
+        "Fix_Type": "3d",
+        "Elevation_m": "25.0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.001392388690385258,
+          5.4262168623023e-05
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Observation_ID": "OBS033",
+        "Timestamp": "2026-01-01T12:02:40+00:00",
+        "Longitude": "0.001437304454591234",
+        "Latitude": "0.000072349558164031",
+        "Horizontal_Accuracy_m": "2",
+        "HDOP": "0.8",
+        "PDOP": "1.2",
+        "Satellites": "12",
+        "Fix_Type": "3d",
+        "Elevation_m": "25.0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.001437304454591234,
+          7.2349558164031e-05
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Observation_ID": "OBS034",
+        "Timestamp": "2026-01-01T12:02:45+00:00",
+        "Longitude": "0.001482220218797210",
+        "Latitude": "0.000081393252934534",
+        "Horizontal_Accuracy_m": "2",
+        "HDOP": "0.8",
+        "PDOP": "1.2",
+        "Satellites": "12",
+        "Fix_Type": "3d",
+        "Elevation_m": "25.0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.00148222021879721,
+          8.1393252934534e-05
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Observation_ID": "OBS035",
+        "Timestamp": "2026-01-01T12:02:50+00:00",
+        "Longitude": "0.001527135983003187",
+        "Latitude": "0.000108524337246046",
+        "Horizontal_Accuracy_m": "8",
+        "HDOP": "3.0",
+        "PDOP": "4.2",
+        "Satellites": "5",
+        "Fix_Type": "3d",
+        "Elevation_m": "25.0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.001527135983003187,
+          0.000108524337246046
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Observation_ID": "OBS036",
+        "Timestamp": "2026-01-01T12:02:55+00:00",
+        "Longitude": "0.001572051747209163",
+        "Latitude": "0.000126611726787053",
+        "Horizontal_Accuracy_m": "10",
+        "HDOP": "3.0",
+        "PDOP": "4.2",
+        "Satellites": "5",
+        "Fix_Type": "3d",
+        "Elevation_m": "25.0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.001572051747209163,
+          0.000126611726787053
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Observation_ID": "OBS037",
+        "Timestamp": "2026-01-01T12:03:00+00:00",
+        "Longitude": "0.001616967511415139",
+        "Latitude": "0.000126611726787053",
+        "Horizontal_Accuracy_m": "12",
+        "HDOP": "3.0",
+        "PDOP": "4.2",
+        "Satellites": "5",
+        "Fix_Type": "3d",
+        "Elevation_m": "25.0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.001616967511415139,
+          0.000126611726787053
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Observation_ID": "OBS038",
+        "Timestamp": "2026-01-01T12:03:05+00:00",
+        "Longitude": "0.001661883275621115",
+        "Latitude": "0.000126611726787053",
+        "Horizontal_Accuracy_m": "10",
+        "HDOP": "3.0",
+        "PDOP": "4.2",
+        "Satellites": "5",
+        "Fix_Type": "3d",
+        "Elevation_m": "25.0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.001661883275621115,
+          0.000126611726787053
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Observation_ID": "OBS039",
+        "Timestamp": "2026-01-01T12:03:10+00:00",
+        "Longitude": "0.001706799039827091",
+        "Latitude": "0.000108524337246046",
+        "Horizontal_Accuracy_m": "8",
+        "HDOP": "3.0",
+        "PDOP": "4.2",
+        "Satellites": "5",
+        "Fix_Type": "3d",
+        "Elevation_m": "25.0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.001706799039827091,
+          0.000108524337246046
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Observation_ID": "OBS040",
+        "Timestamp": "2026-01-01T12:03:15+00:00",
+        "Longitude": "0.001751714804033067",
+        "Latitude": "0.000081393252934534",
+        "Horizontal_Accuracy_m": "2",
+        "HDOP": "0.8",
+        "PDOP": "1.2",
+        "Satellites": "12",
+        "Fix_Type": "3d",
+        "Elevation_m": "25.0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.001751714804033067,
+          8.1393252934534e-05
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Observation_ID": "OBS041",
+        "Timestamp": "2026-01-01T12:03:20+00:00",
+        "Longitude": "0.001796630568239043",
+        "Latitude": "0.000072349558164031",
+        "Horizontal_Accuracy_m": "2",
+        "HDOP": "0.8",
+        "PDOP": "1.2",
+        "Satellites": "12",
+        "Fix_Type": "3d",
+        "Elevation_m": "25.0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.001796630568239043,
+          7.2349558164031e-05
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Observation_ID": "OBS042",
+        "Timestamp": "2026-01-01T12:03:25+00:00",
+        "Longitude": "0.001841546332445019",
+        "Latitude": "0.000054262168623023",
+        "Horizontal_Accuracy_m": "2",
+        "HDOP": "0.8",
+        "PDOP": "1.2",
+        "Satellites": "12",
+        "Fix_Type": "3d",
+        "Elevation_m": "25.0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.001841546332445019,
+          5.4262168623023e-05
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Observation_ID": "OBS043",
+        "Timestamp": "2026-01-01T12:03:30+00:00",
+        "Longitude": "0.001886462096650995",
+        "Latitude": "0.000054262168623023",
+        "Horizontal_Accuracy_m": "2",
+        "HDOP": "0.8",
+        "PDOP": "1.2",
+        "Satellites": "12",
+        "Fix_Type": "3d",
+        "Elevation_m": "25.0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.001886462096650995,
+          5.4262168623023e-05
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Observation_ID": "OBS044",
+        "Timestamp": "2026-01-01T12:03:35+00:00",
+        "Longitude": "0.001931377860856971",
+        "Latitude": "0.000039792256990217",
+        "Horizontal_Accuracy_m": "2",
+        "HDOP": "0.8",
+        "PDOP": "1.2",
+        "Satellites": "12",
+        "Fix_Type": "3d",
+        "Elevation_m": "25.0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.001931377860856971,
+          3.9792256990217e-05
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Observation_ID": "OBS045",
+        "Timestamp": "2026-01-01T12:03:40+00:00",
+        "Longitude": "0.001976293625062947",
+        "Latitude": "0.000030748562219713",
+        "Horizontal_Accuracy_m": "2",
+        "HDOP": "0.8",
+        "PDOP": "1.2",
+        "Satellites": "12",
+        "Fix_Type": "3d",
+        "Elevation_m": "25.0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.001976293625062947,
+          3.0748562219713e-05
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Observation_ID": "OBS046",
+        "Timestamp": "2026-01-01T12:03:45+00:00",
+        "Longitude": "0.002021209389268923",
+        "Latitude": "0.000021704867449209",
+        "Horizontal_Accuracy_m": "2",
+        "HDOP": "0.8",
+        "PDOP": "1.2",
+        "Satellites": "12",
+        "Fix_Type": "3d",
+        "Elevation_m": "25.0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.002021209389268923,
+          2.1704867449209e-05
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Observation_ID": "OBS047",
+        "Timestamp": "2026-01-01T12:03:50+00:00",
+        "Longitude": "0.002066125153474899",
+        "Latitude": "0.000012661172678705",
+        "Horizontal_Accuracy_m": "2",
+        "HDOP": "0.8",
+        "PDOP": "1.2",
+        "Satellites": "12",
+        "Fix_Type": "3d",
+        "Elevation_m": "25.0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.002066125153474899,
+          1.2661172678705e-05
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Observation_ID": "OBS048",
+        "Timestamp": "2026-01-01T12:03:55+00:00",
+        "Longitude": "0.002111040917680876",
+        "Latitude": "0.000004521847385252",
+        "Horizontal_Accuracy_m": "2",
+        "HDOP": "0.8",
+        "PDOP": "1.2",
+        "Satellites": "12",
+        "Fix_Type": "3d",
+        "Elevation_m": "25.0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.002111040917680876,
+          4.521847385252e-06
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Observation_ID": "OBS049",
+        "Timestamp": "2026-01-01T12:04:00+00:00",
+        "Longitude": "0.002155956681886852",
+        "Latitude": "-0.000004521847385252",
+        "Horizontal_Accuracy_m": "2",
+        "HDOP": "0.8",
+        "PDOP": "1.2",
+        "Satellites": "12",
+        "Fix_Type": "3d",
+        "Elevation_m": "25.0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.002155956681886852,
+          -4.521847385252e-06
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Observation_ID": "OBS050",
+        "Timestamp": "2026-01-01T12:04:05+00:00",
+        "Longitude": "0.002200872446092828",
+        "Latitude": "0.000002260923692626",
+        "Horizontal_Accuracy_m": "2",
+        "HDOP": "0.8",
+        "PDOP": "1.2",
+        "Satellites": "12",
+        "Fix_Type": "3d",
+        "Elevation_m": "25.0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.002200872446092828,
+          2.260923692626e-06
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Observation_ID": "OBS051",
+        "Timestamp": "2026-01-01T12:04:10+00:00",
+        "Longitude": "0.002245788210298804",
+        "Latitude": "-0.000002260923692626",
+        "Horizontal_Accuracy_m": "2",
+        "HDOP": "0.8",
+        "PDOP": "1.2",
+        "Satellites": "12",
+        "Fix_Type": "3d",
+        "Elevation_m": "25.0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.002245788210298804,
+          -2.260923692626e-06
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Observation_ID": "OBS052",
+        "Timestamp": "2026-01-01T12:04:15+00:00",
+        "Longitude": "0.002290703974504780",
+        "Latitude": "0.000006782771077878",
+        "Horizontal_Accuracy_m": "2",
+        "HDOP": "0.8",
+        "PDOP": "1.2",
+        "Satellites": "12",
+        "Fix_Type": "3d",
+        "Elevation_m": "25.0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.00229070397450478,
+          6.782771077878e-06
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Observation_ID": "OBS053",
+        "Timestamp": "2026-01-01T12:04:20+00:00",
+        "Longitude": "0.002335619738710755",
+        "Latitude": "-0.000006782771077878",
+        "Horizontal_Accuracy_m": "2",
+        "HDOP": "0.8",
+        "PDOP": "1.2",
+        "Satellites": "12",
+        "Fix_Type": "3d",
+        "Elevation_m": "25.0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.002335619738710755,
+          -6.782771077878e-06
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Observation_ID": "OBS054",
+        "Timestamp": "2026-01-01T12:04:25+00:00",
+        "Longitude": "0.002380535502916732",
+        "Latitude": "0.000002260923692626",
+        "Horizontal_Accuracy_m": "2",
+        "HDOP": "0.8",
+        "PDOP": "1.2",
+        "Satellites": "12",
+        "Fix_Type": "3d",
+        "Elevation_m": "25.0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.002380535502916732,
+          2.260923692626e-06
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Observation_ID": "OBS055",
+        "Timestamp": "2026-01-01T12:04:30+00:00",
+        "Longitude": "0.002425451267122708",
+        "Latitude": "-0.000002260923692626",
+        "Horizontal_Accuracy_m": "2",
+        "HDOP": "0.8",
+        "PDOP": "1.2",
+        "Satellites": "12",
+        "Fix_Type": "3d",
+        "Elevation_m": "25.0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.002425451267122708,
+          -2.260923692626e-06
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Observation_ID": "OBS056",
+        "Timestamp": "2026-01-01T12:04:35+00:00",
+        "Longitude": "0.002470367031328684",
+        "Latitude": "0.000004521847385252",
+        "Horizontal_Accuracy_m": "2",
+        "HDOP": "0.8",
+        "PDOP": "1.2",
+        "Satellites": "12",
+        "Fix_Type": "3d",
+        "Elevation_m": "25.0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.002470367031328684,
+          4.521847385252e-06
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Observation_ID": "OBS057",
+        "Timestamp": "2026-01-01T12:04:40+00:00",
+        "Longitude": "0.002515282795534660",
+        "Latitude": "-0.000004521847385252",
+        "Horizontal_Accuracy_m": "2",
+        "HDOP": "0.8",
+        "PDOP": "1.2",
+        "Satellites": "12",
+        "Fix_Type": "3d",
+        "Elevation_m": "25.0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.00251528279553466,
+          -4.521847385252e-06
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Observation_ID": "OBS058",
+        "Timestamp": "2026-01-01T12:04:45+00:00",
+        "Longitude": "0.002560198559740636",
+        "Latitude": "0.000002260923692626",
+        "Horizontal_Accuracy_m": "2",
+        "HDOP": "0.8",
+        "PDOP": "1.2",
+        "Satellites": "12",
+        "Fix_Type": "3d",
+        "Elevation_m": "25.0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.002560198559740636,
+          2.260923692626e-06
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Observation_ID": "OBS059",
+        "Timestamp": "2026-01-01T12:04:50+00:00",
+        "Longitude": "0.002605114323946612",
+        "Latitude": "-0.000002260923692626",
+        "Horizontal_Accuracy_m": "2",
+        "HDOP": "0.8",
+        "PDOP": "1.2",
+        "Satellites": "12",
+        "Fix_Type": "3d",
+        "Elevation_m": "25.0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.002605114323946612,
+          -2.260923692626e-06
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Observation_ID": "OBS060",
+        "Timestamp": "2026-01-01T12:04:55+00:00",
+        "Longitude": "0.002650030088152588",
+        "Latitude": "0.000002260923692626",
+        "Horizontal_Accuracy_m": "2",
+        "HDOP": "0.8",
+        "PDOP": "1.2",
+        "Satellites": "12",
+        "Fix_Type": "3d",
+        "Elevation_m": "25.0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.002650030088152588,
+          2.260923692626e-06
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Observation_ID": "OBS061",
+        "Timestamp": "2026-01-01T12:05:00+00:00",
+        "Longitude": "0.002694945852358564",
+        "Latitude": "0.000000000000000000",
+        "Horizontal_Accuracy_m": "2",
+        "HDOP": "0.8",
+        "PDOP": "1.2",
+        "Satellites": "12",
+        "Fix_Type": "3d",
+        "Elevation_m": "25.0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.002694945852358564,
+          0.0
+        ]
+      }
+    }
+  ]
+}
