@@ -6,6 +6,7 @@ import csv
 from pathlib import Path
 import sqlite3
 import xml.etree.ElementTree as ET
+from typing import Callable
 from qgis.PyQt.QtCore import QMetaType
 from qgis.core import (QgsCoordinateReferenceSystem, QgsCoordinateTransformContext, QgsFeature, QgsField, QgsFields,
                        QgsGeometry, QgsMemoryProviderUtils, QgsPointXY, QgsVectorFileWriter,
@@ -33,10 +34,15 @@ def _planned_layer(prepared: PreparedNavigation) -> QgsVectorLayer:
     return layer
 
 
-def _verify_layer(path: Path, name: str, original: QgsVectorLayer) -> None:
+def _verify_layer(path: Path, name: str, original: QgsVectorLayer,
+                  crs_equivalent: Callable[[QgsCoordinateReferenceSystem,
+                                            QgsCoordinateReferenceSystem], bool] | None = None) -> None:
     """Reopen through OGR and verify geometry and all original field values."""
     reopened = QgsVectorLayer(f'{path}|layername={name}', name, 'ogr')
-    if not reopened.isValid() or reopened.featureCount() != original.featureCount() or reopened.crs() != original.crs():
+    same_crs = ((lambda left, right: left == right) if crs_equivalent is None
+                else crs_equivalent)
+    if (not reopened.isValid() or reopened.featureCount() != original.featureCount()
+            or not same_crs(reopened.crs(), original.crs())):
         raise ValueError(f'GeoPackage verification failed for {name}: count, CRS or layer could not be preserved')
     names = original.fields().names()
     if not set(names) <= set(reopened.fields().names()):
@@ -82,7 +88,9 @@ def _restore_null_geometries(path: Path, name: str, layer: QgsVectorLayer,
 
 def write_geopackage_layers(path: Path, layers: list[tuple[str, QgsVectorLayer]],
                            context: QgsCoordinateTransformContext, *,
-                           null_geometry_keys: dict[str, str] | None = None) -> None:
+                           null_geometry_keys: dict[str, str] | None = None,
+                           crs_equivalent: Callable[[QgsCoordinateReferenceSystem,
+                                                     QgsCoordinateReferenceSystem], bool] | None = None) -> None:
     """Write a new staged GeoPackage and verify every geometry/attribute/CRS on reopen."""
     if path.exists() or path.is_symlink():
         raise ValueError('GeoPackage destination already exists; nothing will be overwritten')
@@ -112,7 +120,7 @@ def write_geopackage_layers(path: Path, layers: list[tuple[str, QgsVectorLayer]]
         if name in null_geometry_keys:
             _restore_null_geometries(path, name, layer, null_geometry_keys[name])
     for name, layer in layers:
-        _verify_layer(path, name, layer)
+        _verify_layer(path, name, layer, crs_equivalent)
     with sqlite3.connect(f'{path.as_uri()}?mode=ro', uri=True) as connection:
         if connection.execute('PRAGMA quick_check').fetchone() != ('ok',):
             raise ValueError('GeoPackage integrity check failed')

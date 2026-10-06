@@ -1,5 +1,11 @@
 # Transect Navigator — v0.1 release candidate
 
+> **v0.2 development workspace:** Stage 2 adds scripting-level Survey setup,
+> multi-transect preflight, batch PREPARE and verified survey navigation export while
+> preserving the installed v0.1 workflow. It does not yet add Survey UI or recording
+> intake. See [v0.2 Stage 2](docs/v0.2_stage2.md) and the governing
+> [architecture design](docs/v0.2_design.md).
+
 **Version 0.1.13-rc1** packages the QGIS-validated v0.1.12 behavior. Transect
 Navigator prepares waypoints from planned transects and measures recorded-GPS
 deviation for QA/QC. It retains raw observations separately from all derived outputs

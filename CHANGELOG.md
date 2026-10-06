@@ -1,5 +1,17 @@
 # Changelog
 
+## Unreleased v0.2 development — Stage 2
+
+- Added immutable Survey/planned-transect records, stable content identities and
+  complete planned-layer preflight without changing the v0.1 waypoint engine.
+- Added batch Survey PREPARE with explicit unsupported-plan exclusions and preserved
+  official geometry/direction, original fields and legacy Waypoint_ID behavior.
+- Added a staged, verified, no-overwrite Survey navigation GeoPackage plus existing
+  CSV, GeoJSON and GPX companions and a machine-readable manifest.
+- Separated exact CRS serialization provenance from semantic/operational identity so
+  harmless QGIS custom-CRS WKT normalization does not report source mutation, while
+  genuinely different CRS definitions remain rejected.
+
 ## 0.1.13-rc1 — release candidate
 
 - Packaged the existing v0.1.12 behavior after the complete 283-test QGIS suite and
