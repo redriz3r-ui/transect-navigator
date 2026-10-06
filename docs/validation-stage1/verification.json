@@ -1,0 +1,16 @@
+{
+  "original_tests": 283,
+  "development_tests": 287,
+  "passed": 287,
+  "failed": 0,
+  "errors": 0,
+  "skipped": 0,
+  "original_test_ids_retained": true,
+  "original_files_unchanged": 105,
+  "new_test_ids": [
+    "test_existing_analysis_extent_guard_is_preserved (tests.qgis.test_survey_compatibility.SingleSurveyCompatibilityTests.test_existing_analysis_extent_guard_is_preserved)",
+    "test_explicit_options_are_forwarded_unchanged (tests.qgis.test_survey_compatibility.SingleSurveyCompatibilityTests.test_explicit_options_are_forwarded_unchanged)",
+    "test_invalid_survey_identity_rejected_without_mutation (tests.qgis.test_survey_compatibility.SingleSurveyCompatibilityTests.test_invalid_survey_identity_rejected_without_mutation)",
+    "test_syn01_exact_equivalence_and_independent_known_answers (tests.qgis.test_survey_compatibility.SingleSurveyCompatibilityTests.test_syn01_exact_equivalence_and_independent_known_answers)"
+  ]
+}
