@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Independent Stage 4 fixture" xmlns="http://www.topografix.com/GPX/1/1">
+<trk><name>repeat with structural gap</name>
+<trkseg><trkpt lat="0" lon="0"><time>2026-10-01T00:10:00Z</time><hdop>1</hdop></trkpt><trkpt lat="0" lon="0.0004"><time>2026-10-01T00:10:10Z</time><hdop>1</hdop></trkpt></trkseg>
+<trkseg><trkpt lat="0" lon="0.0006"><time>2026-10-01T00:10:20Z</time><hdop>1</hdop></trkpt><trkpt lat="0" lon="0.001"><time>2026-10-01T00:10:30Z</time><hdop>1</hdop></trkpt></trkseg></trk>
+<trk><name>separate reverse recording</name><trkseg><trkpt lat="0.001" lon="0.001"><time>2026-10-01T00:10:40Z</time></trkpt><trkpt lat="0.001" lon="0.0006"><time>2026-10-01T00:10:50Z</time></trkpt></trkseg></trk>
+</gpx>

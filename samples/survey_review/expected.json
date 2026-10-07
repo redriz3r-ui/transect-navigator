@@ -1,0 +1,25 @@
+{
+  "provenance": "Hand-authored observation membership and counts; no production engine generated this oracle. Rows are 1-based data rows, excluding CSV headers; GPX rows are per track.",
+  "raw_count": 24,
+  "assigned": 15,
+  "ambiguous": 5,
+  "unassigned": 4,
+  "transition": 2,
+  "unresolved": 7,
+  "visits": 6,
+  "segments": 10,
+  "policy": {"max_time_gap_s": 60, "max_spatial_gap_m": 100},
+  "actions": [
+    {"file":"A.csv","track":1,"rows":[1,2,3],"status":"ASSIGNED","role":"SURVEY","plan":"T01","direction":"FORWARD"},
+    {"file":"A.csv","track":1,"rows":[4,5],"status":"UNASSIGNED","role":"TRANSITION"},
+    {"file":"A.csv","track":1,"rows":[6,7,8],"status":"ASSIGNED","role":"SURVEY","plan":"T02","direction":"REVERSE"},
+    {"file":"A.csv","track":1,"rows":[9,10],"status":"AMBIGUOUS","role":"UNKNOWN"},
+    {"file":"A.csv","track":1,"rows":[11],"status":"UNASSIGNED","role":"UNKNOWN"},
+    {"file":"A.csv","track":1,"rows":[12,13,14],"status":"ASSIGNED","role":"SURVEY","plan":"T01","direction":"FORWARD"},
+    {"file":"B.gpx","track":1,"rows":[1,2],"status":"ASSIGNED","role":"SURVEY","plan":"T01","direction":"FORWARD"},
+    {"file":"B.gpx","track":1,"rows":[3,4],"status":"ASSIGNED","role":"SURVEY","plan":"T01","direction":"FORWARD"},
+    {"file":"B.gpx","track":2,"rows":[1,2],"status":"ASSIGNED","role":"SURVEY","plan":"T02","direction":"REVERSE"},
+    {"file":"C.csv","track":1,"rows":[1,2,3],"status":"AMBIGUOUS","role":"UNKNOWN"},
+    {"file":"C.csv","track":1,"rows":[4],"status":"UNASSIGNED","role":"UNKNOWN"}
+  ]
+}

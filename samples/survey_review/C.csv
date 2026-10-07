@@ -1,0 +1,5 @@
+x,y,time,accuracy,note
+0,0,,2,missing chronology
+0.0001,0,2026-10-01T00:00:00Z,2,duplicate instant
+0.0002,0,2026-10-01T00:00:00Z,2,duplicate instant
+0.02,0.02,2026-10-01T00:00:10Z,,unrelated

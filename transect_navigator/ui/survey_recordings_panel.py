@@ -103,8 +103,22 @@ class SurveyRecordingsPanel(QWidget):
         open_button = QPushButton('OPEN INTAKE SNAPSHOT…', self)
         open_button.clicked.connect(self._open)
         save_row.addWidget(open_button)
+        review = QPushButton('REVIEW ASSIGNMENTS…', self)
+        review.clicked.connect(self._review)
+        save_row.addWidget(review)
         layout.addLayout(save_row)
         self.refresh()
+
+    def _review(self) -> None:
+        from .survey_review_dialog import SurveyReviewDialog, choose_review_policy
+        policy = choose_review_policy(self)
+        if policy is None:
+            return
+        try:
+            dialog = SurveyReviewDialog(self.intake, policy, self)
+            dialog.exec()
+        except ValueError as error:
+            self.status.setText(f'Cannot open review: {error}')
 
     def add_files(self, paths: list[Path],
                   options: Mapping[Path, ImportOptions] | None = None) -> None:

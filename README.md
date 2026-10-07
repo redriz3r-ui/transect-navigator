@@ -1,10 +1,11 @@
 # Transect Navigator — v0.1 release candidate
 
-> **v0.2 development workspace:** Stage 3 adds immutable multi-file Survey recording
-> intake, content-based provenance, duplicate/failure ledgers, normalized working
-> observations, verified persistence and a utilitarian recordings workspace component.
-> It performs no transect assignment or batch QA and preserves the installed v0.1
-> workflow. See [v0.2 Stage 3](docs/v0.2_stage3.md),
+> **v0.2 development workspace:** Stage 4 adds conservative continuity segmentation,
+> analyst-confirmed exact observation assignment, Visits, append-only review history
+> and verified save/resume. The review workspace opens from the Stage 3 recordings
+> component. It performs no automatic association or batch QA and preserves the
+> installed v0.1 workflow. See [v0.2 Stage 4](docs/v0.2_stage4.md),
+> [v0.2 Stage 3](docs/v0.2_stage3.md),
 > [v0.2 Stage 2](docs/v0.2_stage2.md) and the governing
 > [architecture design](docs/v0.2_design.md).
 
