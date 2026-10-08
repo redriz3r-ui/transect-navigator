@@ -1,6 +1,9 @@
 # Transect Navigator — v0.1 release candidate
 
-> **v0.2 development workspace:** Stage 7 adds an auditable, verified Survey snapshot
+> **v0.2 development workspace:** Stage 8 validates the complete reviewed Survey
+> pipeline against a separate [1,008-observation, 12-transect known-answer fixture](samples/survey_full/README.md).
+> It exercises the existing Stage 2–7 interfaces, not automatic association or a
+> mouse-driven QGIS GUI. See [Stage 8 results](docs/v0.2_stage8.md). Stage 7 adds an auditable, verified Survey snapshot
 > export through Survey RESULTS: standard GeoPackage, CSV summaries, JSON manifest,
 > README and retained original-source bytes where available. Every raw observation,
 > review decision, accepted Visit, QA result and operational status is represented;

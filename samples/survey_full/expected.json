@@ -1,0 +1,237 @@
+{
+  "survey_id": "SYN02",
+  "site_extent_m": [
+    0,
+    0,
+    10000,
+    10000
+  ],
+  "source_counts": {
+    "A1.csv": 293,
+    "B1.gpx": 208,
+    "B2.gpkg": 101,
+    "C1.geojson": 217,
+    "C2.csv": 189
+  },
+  "raw_count": 1008,
+  "assigned": 719,
+  "ambiguous": 202,
+  "unassigned": 87,
+  "transition": 75,
+  "unrelated": 12,
+  "visit_count": 9,
+  "waypoint_count": 1212,
+  "status_counts": {
+    "COMPLETE": 4,
+    "INCOMPLETE": 3,
+    "REVIEW": 4,
+    "NOT_SURVEYED": 1
+  },
+  "statuses": {
+    "T01": "COMPLETE",
+    "T02": "COMPLETE",
+    "T03": "INCOMPLETE",
+    "T04": "INCOMPLETE",
+    "T05": "REVIEW",
+    "T06": "REVIEW",
+    "T07": "COMPLETE",
+    "T08": "COMPLETE",
+    "T09": "NOT_SURVEYED",
+    "T10": "INCOMPLETE",
+    "T11": "REVIEW",
+    "T12": "REVIEW"
+  },
+  "support_m": {
+    "T01": 1000,
+    "T02": 1000,
+    "T03": 600,
+    "T04": 900,
+    "T05": 0,
+    "T06": 0,
+    "T07": 1000,
+    "T08": 1000,
+    "T09": 0,
+    "T10": 600,
+    "T11": 0,
+    "T12": 0
+  },
+  "planned_m": 12000,
+  "project_support_m": 6100,
+  "project_support_percent": 50.833333333333336,
+  "t08": {
+    "count": 101,
+    "mean_m": 1.7425742574257426,
+    "rmse_m": 2.800282871142814,
+    "median_m": 1,
+    "p95_m": 8,
+    "maximum_m": 8,
+    "event_count": 1,
+    "event_observations": 11,
+    "event_duration_s": 100,
+    "event_span_m": 100,
+    "high_accuracy_count": 3,
+    "high_accuracy_m": 12,
+    "event_mean_accuracy_m": 4.7272727272727275
+  },
+  "review_actions": [
+    {
+      "file": "A1.csv",
+      "rows": [
+        1,
+        101
+      ],
+      "status": "ASSIGNED",
+      "plan": "T01",
+      "direction": "FORWARD"
+    },
+    {
+      "file": "A1.csv",
+      "rows": [
+        102,
+        116
+      ],
+      "status": "UNASSIGNED",
+      "role": "TRANSITION"
+    },
+    {
+      "file": "A1.csv",
+      "rows": [
+        117,
+        217
+      ],
+      "status": "ASSIGNED",
+      "plan": "T02",
+      "direction": "REVERSE"
+    },
+    {
+      "file": "A1.csv",
+      "rows": [
+        218,
+        232
+      ],
+      "status": "UNASSIGNED",
+      "role": "TRANSITION"
+    },
+    {
+      "file": "A1.csv",
+      "rows": [
+        233,
+        293
+      ],
+      "status": "ASSIGNED",
+      "plan": "T03",
+      "direction": "FORWARD"
+    },
+    {
+      "file": "B1.gpx",
+      "rows": [
+        1,
+        92
+      ],
+      "status": "ASSIGNED",
+      "plan": "T04",
+      "direction": "FORWARD"
+    },
+    {
+      "file": "B1.gpx",
+      "rows": [
+        93,
+        107
+      ],
+      "status": "UNASSIGNED",
+      "role": "TRANSITION"
+    },
+    {
+      "file": "B1.gpx",
+      "rows": [
+        108,
+        208
+      ],
+      "status": "AMBIGUOUS",
+      "relevant": [
+        "T05",
+        "T06"
+      ]
+    },
+    {
+      "file": "B2.gpkg",
+      "rows": [
+        1,
+        101
+      ],
+      "status": "ASSIGNED",
+      "plan": "T07",
+      "direction": "FORWARD"
+    },
+    {
+      "file": "C1.geojson",
+      "rows": [
+        1,
+        101
+      ],
+      "status": "ASSIGNED",
+      "plan": "T07",
+      "direction": "REVERSE"
+    },
+    {
+      "file": "C1.geojson",
+      "rows": [
+        102,
+        116
+      ],
+      "status": "UNASSIGNED",
+      "role": "TRANSITION"
+    },
+    {
+      "file": "C1.geojson",
+      "rows": [
+        117,
+        217
+      ],
+      "status": "ASSIGNED",
+      "plan": "T08",
+      "direction": "FORWARD"
+    },
+    {
+      "file": "C2.csv",
+      "rows": [
+        1,
+        61
+      ],
+      "status": "ASSIGNED",
+      "plan": "T10",
+      "direction": "FORWARD"
+    },
+    {
+      "file": "C2.csv",
+      "rows": [
+        62,
+        76
+      ],
+      "status": "UNASSIGNED",
+      "role": "TRANSITION"
+    },
+    {
+      "file": "C2.csv",
+      "rows": [
+        77,
+        177
+      ],
+      "status": "AMBIGUOUS",
+      "relevant": [
+        "T11",
+        "T12"
+      ]
+    },
+    {
+      "file": "C2.csv",
+      "rows": [
+        178,
+        189
+      ],
+      "status": "UNASSIGNED",
+      "role": "UNKNOWN",
+      "relevant": []
+    }
+  ]
+}

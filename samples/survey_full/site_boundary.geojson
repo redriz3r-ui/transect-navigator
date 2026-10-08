@@ -1,0 +1,40 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "Site_ID": "SYN02_SITE",
+        "Declared_Width_m": 10000,
+        "Declared_Height_m": 10000
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.08983152841195215,
+              5.537663642535463e-18
+            ],
+            [
+              0.08983152841195215,
+              0.0904369469507303
+            ],
+            [
+              0.0,
+              0.0904369469507303
+            ],
+            [
+              0.0,
+              0.0
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

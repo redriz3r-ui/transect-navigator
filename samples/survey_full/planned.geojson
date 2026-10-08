@@ -1,0 +1,245 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "Transect_ID": "T01",
+        "Site_Block": "SW"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            0.004491576420597608,
+            0.004521847385150968
+          ],
+          [
+            0.013474729289581523,
+            0.0045218473291990064
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Transect_ID": "T02",
+        "Site_Block": "SW"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            0.004491576420597608,
+            0.006330586339084655
+          ],
+          [
+            0.013474729316258673,
+            0.006330586260751909
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Transect_ID": "T03",
+        "Site_Block": "SW"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            0.004491576420597608,
+            0.00813932529289164
+          ],
+          [
+            0.013474729351828208,
+            0.008139325192178106
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Transect_ID": "T04",
+        "Site_Block": "CENTRAL"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            0.03593261136478086,
+            0.0271310842911087
+          ],
+          [
+            0.04491576520636934,
+            0.027131083955396894
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Transect_ID": "T05",
+        "Site_Block": "CENTRAL"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            0.03593261136478086,
+            0.02984419271551577
+          ],
+          [
+            0.04491576541645194,
+            0.029844192346232784
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Transect_ID": "T06",
+        "Site_Block": "CENTRAL"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            0.03593261136478086,
+            0.02995271705246491
+          ],
+          [
+            0.04491576542527141,
+            0.029952716681839072
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Transect_ID": "T07",
+        "Site_Block": "NE"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            0.06737364630896411,
+            0.05878401580107258
+          ],
+          [
+            0.07635680384645151,
+            0.05878401507369681
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Transect_ID": "T08",
+        "Site_Block": "NE"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            0.06737364630896411,
+            0.061497124202198224
+          ],
+          [
+            0.07635680428995954,
+            0.06149712344125126
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Transect_ID": "T09",
+        "Site_Block": "NE"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            0.06737364630896411,
+            0.06421023260055458
+          ],
+          [
+            0.07635680475347549,
+            0.0642102318060364
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Transect_ID": "T10",
+        "Site_Block": "NW"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            0.004491576420597608,
+            0.08139325238462128
+          ],
+          [
+            0.013474738265338786,
+            0.08139325137748532
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Transect_ID": "T11",
+        "Site_Block": "NW"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            0.004491576420597608,
+            0.08410636075893606
+          ],
+          [
+            0.013474738875579666,
+            0.08410635971822884
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Transect_ID": "T12",
+        "Site_Block": "NW"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            0.004491576420597608,
+            0.08410636075893606
+          ],
+          [
+            0.013474738875579666,
+            0.08410635971822884
+          ]
+        ]
+      }
+    }
+  ]
+}
