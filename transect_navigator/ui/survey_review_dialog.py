@@ -49,6 +49,7 @@ class SurveyReviewDialog(QDialog):
         self.intake = intake
         self.run = start_review(intake, policy)
         self._saved_revision = 0
+        self._qa_window = None
         self.setWindowTitle(f'Survey Association Review — {intake.survey.survey_id}')
         self.resize(1200, 850)
         layout = QVBoxLayout(self)
@@ -121,6 +122,9 @@ class SurveyReviewDialog(QDialog):
         zoom = QPushButton('ZOOM TO SELECTED OBSERVATIONS')
         zoom.clicked.connect(lambda: self.canvas.zoomToSelected(self.points) if self.points.selectedFeatureCount() else None)
         controls.addWidget(zoom)
+        qa = QPushButton('RUN / INSPECT VISIT QA…')
+        qa.clicked.connect(self._open_qa)
+        controls.addWidget(qa)
         self._map_layers = []
         self._build_map()
         self.recording.currentIndexChanged.connect(self.refresh)
@@ -133,7 +137,8 @@ class SurveyReviewDialog(QDialog):
             if plan.geometry_is_null:
                 continue
             geometry = QgsGeometry()
-            if not geometry.fromWkb(bytes.fromhex(plan.geometry_wkb_hex)):
+            geometry.fromWkb(bytes.fromhex(plan.geometry_wkb_hex))
+            if geometry.isNull() or geometry.isEmpty():
                 continue
             layer = QgsVectorLayer(QgsWkbTypes.displayString(geometry.wkbType()), plan.transect_id or 'Unsupported plan', 'memory')
             layer.setCrs(QgsCoordinateReferenceSystem(plan.crs_wkt))
@@ -202,6 +207,21 @@ class SurveyReviewDialog(QDialog):
         self.status.setText(f'Revision {len(self.run.history)}: {len(membership)} retained observations; '
                             f'{self.run.unresolved_count} unresolved; {len(visits)} Visits. '
                             'Earlier decisions remain in saved history. Unsaved changes require SAVE REVIEW.')
+        if self._qa_window is not None:
+            self._qa_panel.refresh_validity()
+
+    def _open_qa(self):
+        if self._qa_window is None:
+            from .survey_qa_panel import SurveyQaPanel
+            self._qa_window = QDialog(self)
+            self._qa_window.setWindowTitle('Reviewed Visit QA — no completion classification')
+            self._qa_window.resize(1300, 950)
+            layout = QVBoxLayout(self._qa_window)
+            self._qa_panel = SurveyQaPanel(self.intake, lambda: self.run, self._qa_window)
+            layout.addWidget(self._qa_panel)
+        self._qa_panel.refresh_validity()
+        self._qa_window.show()
+        self._qa_window.raise_()
 
     def apply_action(self, action: str) -> None:
         try:

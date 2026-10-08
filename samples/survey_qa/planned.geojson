@@ -1,0 +1,43 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "Transect_ID": "T01"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0008983152841195215,
+            0.0
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Transect_ID": "T02"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            0.0,
+            0.0009043694770503822
+          ],
+          [
+            0.0008983152841195215,
+            0.0009043694770503822
+          ]
+        ]
+      }
+    }
+  ]
+}

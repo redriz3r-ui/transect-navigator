@@ -1,10 +1,12 @@
 # Transect Navigator — v0.1 release candidate
 
-> **v0.2 development workspace:** Stage 4 adds conservative continuity segmentation,
-> analyst-confirmed exact observation assignment, Visits, append-only review history
-> and verified save/resume. The review workspace opens from the Stage 3 recordings
-> component. It performs no automatic association or batch QA and preserves the
-> installed v0.1 workflow. See [v0.2 Stage 4](docs/v0.2_stage4.md),
+> **v0.2 development workspace:** Stage 5 runs reviewer-confirmed Visits through the
+> unchanged v0.1 QA engines, preserves Visit boundaries/provenance, aggregates accepted
+> observations per transect, unions station support, detects stale results, and adds a
+> small QA inspector with verified save/resume. It performs no automatic association,
+> project completion/status mapping, or final Survey export, and preserves the installed
+> v0.1 workflow. See [v0.2 Stage 5](docs/v0.2_stage5.md),
+> [v0.2 Stage 4](docs/v0.2_stage4.md),
 > [v0.2 Stage 3](docs/v0.2_stage3.md),
 > [v0.2 Stage 2](docs/v0.2_stage2.md) and the governing
 > [architecture design](docs/v0.2_design.md).
