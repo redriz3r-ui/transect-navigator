@@ -1,0 +1,165 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "Transect_ID": "T01",
+        "Original_note": "retain"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            0.0,
+            0
+          ],
+          [
+            0.0008983152841195215,
+            0
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Transect_ID": "T02",
+        "Original_note": "retain"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            0.004491576420597608,
+            0
+          ],
+          [
+            0.006288206988836651,
+            0
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Transect_ID": "T03",
+        "Original_note": "retain"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            0.008983152841195215,
+            0
+          ],
+          [
+            0.009881468125314735,
+            0
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Transect_ID": "T04",
+        "Original_note": "retain"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            0.013474729261792821,
+            0
+          ],
+          [
+            0.014373044545912345,
+            0
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Transect_ID": "T05",
+        "Original_note": "retain"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            0.01796630568239043,
+            0
+          ],
+          [
+            0.01886462096650995,
+            0
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Transect_ID": "T06",
+        "Original_note": "retain"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            0.022457882102988037,
+            0
+          ],
+          [
+            0.02335619738710756,
+            0
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Transect_ID": "T07",
+        "Original_note": "retain"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            0.026949458523585643,
+            0
+          ],
+          [
+            0.027847773807705166,
+            0
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Transect_ID": "T08",
+        "Original_note": "retain"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            0.03144103494418325,
+            0
+          ],
+          [
+            0.03323766551242229,
+            0
+          ]
+        ]
+      }
+    }
+  ]
+}

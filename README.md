@@ -1,11 +1,17 @@
 # Transect Navigator — v0.1 release candidate
 
-> **v0.2 development workspace:** Stage 6 adds Survey RESULTS over verified Visit QA:
-> an explicitly selected operational completion policy, one status per official plan,
+> **v0.2 development workspace:** Stage 7 adds an auditable, verified Survey snapshot
+> export through Survey RESULTS: standard GeoPackage, CSV summaries, JSON manifest,
+> README and retained original-source bytes where available. Every raw observation,
+> review decision, accepted Visit, QA result and operational status is represented;
+> stale results cannot be published as current. See [v0.2 Stage 7](docs/v0.2_stage7.md)
+> and its [focused sample](samples/survey_snapshot/README.md). Stage 6 supplies
+> Survey RESULTS over verified Visit QA: an explicitly selected operational
+> completion policy, one status per official plan,
 > length-weighted progress/corridor totals, a copied status map, filters, QA drill-down,
 > reviewed unresolved-evidence relevance, and verified results save/resume. Statuses
 > are operational workflow classifications, **not regulatory/scientific determinations**.
-> No automatic association or final Survey export is implemented. The installed v0.1
+> No automatic association is implemented. The installed v0.1
 > workflow and calculation engines remain unchanged. See [v0.2 Stage 6](docs/v0.2_stage6.md),
 > [focused Stage 6 sample](samples/survey_results/README.md), [v0.2 Stage 5](docs/v0.2_stage5.md),
 > [v0.2 Stage 4](docs/v0.2_stage4.md),

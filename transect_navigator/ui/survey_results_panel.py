@@ -86,7 +86,9 @@ class SurveyResultsPanel(QWidget):
         self.save_button.clicked.connect(self._save)
         self.open_button = QPushButton('OPEN RESULTS SNAPSHOT…')
         self.open_button.clicked.connect(self._open)
-        for button in (self.build_button, self.save_button, self.open_button):
+        self.export_button = QPushButton('EXPORT AUDITABLE SURVEY…')
+        self.export_button.clicked.connect(self._export)
+        for button in (self.build_button, self.save_button, self.open_button, self.export_button):
             buttons.addWidget(button)
         body.addLayout(buttons)
         self.summary = QLabel('No current Survey totals.')
@@ -148,6 +150,7 @@ class SurveyResultsPanel(QWidget):
         if not hasattr(self, 'save_button'):
             return
         self.save_button.setEnabled(False)
+        self.export_button.setEnabled(False)
         if self.result is None:
             self.status.setText('Select an explicit policy and build results. No current Survey snapshot.')
             self._unresolved_rows()
@@ -159,6 +162,7 @@ class SurveyResultsPanel(QWidget):
                 self.qa_panel.intake, self.policy, self.evidence_history, options=self.qa_panel.options())
             self.status.setText('CURRENT — operational statuses, not compliance. Select a row for QA / Visit detail.')
             self.save_button.setEnabled(True)
+            self.export_button.setEnabled(True)
         except (ValueError, AttributeError) as error:
             self.status.setText(f'STALE / REVIEW — rebuild after resolving dependencies: {error}')
             self.summary.setText('STALE — current project totals unavailable; historical snapshot is not mixed with current data.')
@@ -274,3 +278,21 @@ class SurveyResultsPanel(QWidget):
                 self.refresh_validity()
             except (ValueError, OSError) as error:
                 self.status.setText(f'Cannot open results: {error}')
+
+    def _export(self):
+        """Current review/QA/results only; never publish an old displayed snapshot."""
+        self.refresh_validity()
+        if not self.export_button.isEnabled():
+            return
+        parent = QFileDialog.getExistingDirectory(self, 'Parent folder for new Survey export')
+        if not parent:
+            return
+        name, ok = QInputDialog.getText(self, 'Auditable Survey export', 'New package name', text='survey_export')
+        if ok:
+            try:
+                from ..integration.survey_snapshot_export import export_survey_snapshot
+                path = export_survey_snapshot(self.result, self.qa_panel.batch,
+                    self.qa_panel.get_review(), self.qa_panel.intake, Path(parent), name)
+                self.status.setText(f'Exported and reopened verified Survey snapshot: {path}')
+            except (ValueError, OSError) as error:
+                self.status.setText(f'Cannot export Survey snapshot: {error}')
