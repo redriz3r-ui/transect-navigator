@@ -1,0 +1,97 @@
+{
+  "actions": [
+    {
+      "file": "forward.csv",
+      "plan": "T01",
+      "surveyor": "S01",
+      "status": "ASSIGNED",
+      "direction": "FORWARD"
+    },
+    {
+      "file": "reverse.csv",
+      "plan": "T02",
+      "surveyor": "S02",
+      "status": "ASSIGNED",
+      "direction": "REVERSE"
+    },
+    {
+      "file": "partial.csv",
+      "plan": "T03",
+      "surveyor": "S01",
+      "status": "ASSIGNED",
+      "direction": "FORWARD"
+    },
+    {
+      "file": "gap.csv",
+      "plan": "T04",
+      "surveyor": "S01",
+      "status": "ASSIGNED",
+      "direction": "FORWARD"
+    },
+    {
+      "file": "ambiguous.csv",
+      "plan": "T05",
+      "surveyor": null,
+      "status": "AMBIGUOUS",
+      "direction": "FORWARD"
+    },
+    {
+      "file": "repeat_a.csv",
+      "plan": "T06",
+      "surveyor": "S01",
+      "status": "ASSIGNED",
+      "direction": "FORWARD"
+    },
+    {
+      "file": "repeat_b.csv",
+      "plan": "T06",
+      "surveyor": "S02",
+      "status": "ASSIGNED",
+      "direction": "REVERSE"
+    },
+    {
+      "file": "poor_qa.csv",
+      "plan": "T07",
+      "surveyor": "S02",
+      "status": "ASSIGNED",
+      "direction": "FORWARD"
+    }
+  ],
+  "tolerance_m": 0.02,
+  "raw_count": 85,
+  "assigned_count": 82,
+  "ambiguous_count": 3,
+  "planned_m": 1000,
+  "progress_m": 640,
+  "corridor_m": 540,
+  "track_m": 740,
+  "progress_percent": 64,
+  "corridor_percent": 54,
+  "naive_mean_percent": 67.5,
+  "status_counts": {
+    "COMPLETE": 4,
+    "INCOMPLETE": 2,
+    "REVIEW": 1,
+    "NOT_SURVEYED": 1
+  },
+  "statuses": {
+    "T01": "COMPLETE",
+    "T02": "COMPLETE",
+    "T03": "INCOMPLETE",
+    "T04": "INCOMPLETE",
+    "T05": "REVIEW",
+    "T06": "COMPLETE",
+    "T07": "COMPLETE",
+    "T08": "NOT_SURVEYED"
+  },
+  "progress_by_plan": {
+    "T01": 100,
+    "T02": 200,
+    "T03": 60,
+    "T04": 80,
+    "T05": 0,
+    "T06": 100,
+    "T07": 100,
+    "T08": 0
+  }
+}

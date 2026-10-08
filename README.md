@@ -1,11 +1,13 @@
 # Transect Navigator — v0.1 release candidate
 
-> **v0.2 development workspace:** Stage 5 runs reviewer-confirmed Visits through the
-> unchanged v0.1 QA engines, preserves Visit boundaries/provenance, aggregates accepted
-> observations per transect, unions station support, detects stale results, and adds a
-> small QA inspector with verified save/resume. It performs no automatic association,
-> project completion/status mapping, or final Survey export, and preserves the installed
-> v0.1 workflow. See [v0.2 Stage 5](docs/v0.2_stage5.md),
+> **v0.2 development workspace:** Stage 6 adds Survey RESULTS over verified Visit QA:
+> an explicitly selected operational completion policy, one status per official plan,
+> length-weighted progress/corridor totals, a copied status map, filters, QA drill-down,
+> reviewed unresolved-evidence relevance, and verified results save/resume. Statuses
+> are operational workflow classifications, **not regulatory/scientific determinations**.
+> No automatic association or final Survey export is implemented. The installed v0.1
+> workflow and calculation engines remain unchanged. See [v0.2 Stage 6](docs/v0.2_stage6.md),
+> [focused Stage 6 sample](samples/survey_results/README.md), [v0.2 Stage 5](docs/v0.2_stage5.md),
 > [v0.2 Stage 4](docs/v0.2_stage4.md),
 > [v0.2 Stage 3](docs/v0.2_stage3.md),
 > [v0.2 Stage 2](docs/v0.2_stage2.md) and the governing

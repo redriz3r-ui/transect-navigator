@@ -20,6 +20,7 @@ class SurveyQaPanel(QWidget):
         super().__init__(parent)
         self.intake, self.get_review = intake, get_review
         self.batch = None
+        self._results_window = None
         layout = QVBoxLayout(self)
         note = QLabel('Only confirmed SURVEY Visits enter QA. Thresholds are configurable QA settings, '
                       'not compliance standards. Coverage is sampled support, not operational completion. '
@@ -58,7 +59,9 @@ class SurveyQaPanel(QWidget):
         self.save_button.clicked.connect(self._save)
         open_button = QPushButton('OPEN QA SNAPSHOT…')
         open_button.clicked.connect(self._open)
-        for button in (self.run_button, self.save_button, open_button):
+        results_button = QPushButton('SURVEY RESULTS…')
+        results_button.clicked.connect(self._open_results)
+        for button in (self.run_button, self.save_button, open_button, results_button):
             buttons.addWidget(button)
         layout.addLayout(buttons)
         self.status = QLabel('No QA run yet.')
@@ -97,6 +100,8 @@ class SurveyQaPanel(QWidget):
     def refresh_validity(self, *_args):
         if not hasattr(self, 'status'):
             return
+        if self._results_window is not None:
+            self._results_panel.refresh_validity()
         self.save_button.setEnabled(False)
         if self.batch is None:
             self.status.setText('No QA run yet.')
@@ -188,3 +193,17 @@ class SurveyQaPanel(QWidget):
                 self.refresh_validity()
             except (ValueError, OSError) as error:
                 self.status.setText(f'Cannot load QA: {error}')
+
+    def _open_results(self):
+        from qgis.PyQt.QtWidgets import QDialog
+        from .survey_results_panel import SurveyResultsPanel
+        if self._results_window is None:
+            self._results_window = QDialog(self)
+            self._results_window.setWindowTitle('Survey RESULTS — operational overview')
+            layout = QVBoxLayout(self._results_window)
+            self._results_panel = SurveyResultsPanel(self, self._results_window)
+            layout.addWidget(self._results_panel)
+            self._results_window.resize(1300, 850)
+        self._results_panel.refresh_validity()
+        self._results_window.show()
+        self._results_window.raise_()
