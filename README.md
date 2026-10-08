@@ -1,4 +1,9 @@
-# Transect Navigator — v0.1 release candidate
+# Transect Navigator — v0.2 development build (Stage 8)
+
+**Installable development version: 0.2.0-dev8.** The Stage 8 known-answer
+multi-transect pipeline passed 460 offscreen QGIS 4.2.3/macOS tests with no
+failures, errors or skips. Interactive v0.2 GUI validation has not been performed.
+The v0.1 release candidate remains a separately verified baseline.
 
 > **v0.2 development workspace:** Stage 8 validates the complete reviewed Survey
 > pipeline against a separate [1,008-observation, 12-transect known-answer fixture](samples/survey_full/README.md).
@@ -22,7 +27,7 @@
 > [v0.2 Stage 2](docs/v0.2_stage2.md) and the governing
 > [architecture design](docs/v0.2_design.md).
 
-**Version 0.1.13-rc1** packages the QGIS-validated v0.1.12 behavior. Transect
+**The v0.1.13-rc1 baseline** packages the QGIS-validated v0.1.12 behavior. Transect
 Navigator prepares waypoints from planned transects and measures recorded-GPS
 deviation for QA/QC. It retains raw observations separately from all derived outputs
 and never edits source layers. The release candidate changes documentation and
@@ -31,7 +36,7 @@ packaging, not geometry, statistics or export algorithms. See the [changelog](CH
 The full **283-test suite passed with no failures, errors or skips** using QGIS 4.2.3
 on macOS. PREPARE, ANALYZE, RESULTS and both export workflows were also exercised in
 the real QGIS GUI with the [known-answer synthetic survey](samples/synthetic_survey/README.md).
-That validates this environment and fixture; other QGIS versions, platforms, devices
+That validates the v0.1 environment and fixture; other QGIS versions, platforms, devices
 and real field datasets remain to be validated. The ZIP is for private evaluation;
 the [license status](LICENSE) must be resolved before public distribution.
 
@@ -271,7 +276,9 @@ python3 tools/package_plugin.py
 ```
 
 In QGIS, use Plugins → Manage and Install Plugins → Install from ZIP and select
-`dist/transect_navigator-0.1.13-rc1.zip`. Enable the plugin. For an update, disable
+`dist/transect_navigator-0.2.0-dev8.zip`. This is a development build; installing
+it in the same QGIS profile updates the existing Transect Navigator installation.
+Use a separate QGIS profile to keep v0.1.13-rc1 available. Enable the plugin. For an update, disable
 the old plugin, install the new ZIP and restart QGIS so imported Python modules are
 refreshed. Older ZIP versions in `dist/` are historical development builds.
 

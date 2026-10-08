@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.2.0-dev8 — Stage 8 installable development snapshot
+
+- Labeled the existing Stage 8 v0.2 code as an experimental installable build.
+- The independent twelve-transect, 1,008-observation fixture and Stage 2–7
+  integration suite passed in offscreen QGIS 4.2.3 on macOS.
+- Interactive v0.2 GUI validation remains pending; verified v0.1 calculation
+  behavior is unchanged.
+
 ## Unreleased v0.2 development — Stage 2
 
 - Added immutable Survey/planned-transect records, stable content identities and
