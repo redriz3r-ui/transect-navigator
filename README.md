@@ -37,8 +37,7 @@ The full **283-test suite passed with no failures, errors or skips** using QGIS 
 on macOS. PREPARE, ANALYZE, RESULTS and both export workflows were also exercised in
 the real QGIS GUI with the [known-answer synthetic survey](samples/synthetic_survey/README.md).
 That validates the v0.1 environment and fixture; other QGIS versions, platforms, devices
-and real field datasets remain to be validated. The ZIP is for private evaluation;
-the [license status](LICENSE) must be resolved before public distribution.
+and real field datasets remain to be validated. This public source snapshot has no open-source license grant; see the [license status](LICENSE).
 
 **Interpretation:** Default 3/5/10 m deviation thresholds are editable display/QA
 settings, **not scientific or regulatory compliance standards**. GNSS positional
